@@ -71,7 +71,7 @@ nav{
 }
 
 .container.reverse{
-    flex-direction: row-reverse;
+    flex-direction: row-reverse;    
 }
 
 .lightbluebox{
