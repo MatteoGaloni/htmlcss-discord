@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: orange;
+    color: black;
+}
+
+header{
+    background-color: #add8e6;
+}
+
+nav{
+    padding: 1em;
+}
+
+.flexContainer{
+    display: flex;
+    /* di default ma lo riscrivo */
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #daa520;        
+}
+
+.button{
+    min-width: 100px;
+    padding: 1em;
+    /* border: solid 1px; */
+}
+
+.blueBackground{
+    background-color: #00008b;    
+    display: flex;
+    justify-content: center;
+    padding: 2em  
+}
+
+.weirdPinkBox{
+    background-color: #ee82ee;
+    min-height: 300px;
+    width: 45%;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.white.background{
+    background-color: white;
+}
+
+.container{   
+    height: 500px;
+    width: 70%;
+    display: flex;
+    justify-content: center;    
+}
+
+.container.reverse{
+    flex-direction: row-reverse;
+}
+
+.lightbluebox{
+    background-color: #1e90ff;
+    width: 66%;
+}
+
+.lightpinkbox{
+    background-color: #ffc0cb;
+    width: 33%;
+}
+
+.grey.background{
+    background-color: #d3d3d3;
+}
+
+.greenbox{
+    background-color: green;
+    width: 100%;
+}
+
+.smoke.background{
+    background-color: #23272a;
+
+}
+
+.mintbox{
+    background-color: #20b2aa;
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.smallMintBox{
+    width: 25%;
+    /* per evidenziare i 4div */
+    border: solid 1px;
+}
+
+
+.salmonbox{
+    background-color: #f08080;
+    width: 33%;
+}
+
+#lastBlock{
+    background-color: #23272a;    
+}
+
+.flexContainer.last{
+    background-color: #7fffd4;
+}
+
+.button.last{
+    background-color: #ffb6c1;
+}
