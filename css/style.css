@@ -37,6 +37,11 @@ nav{
     /* border: solid 1px; */
 }
 
+.linkButton{
+    text-decoration: none;
+    color: white;    
+}
+
 .blueBackground{      
     display: flex;
     justify-content: center;
@@ -71,16 +76,14 @@ nav{
 }
 
 .container.reverse{
-    flex-direction: row-reverse;    
+    flex-direction: row-reverse;   
 }
 
 .lightbluebox{
-    width: 66%;
-    background-color: blue;
+    width: 66%;    
 }
 
-.lightpinkbox{
-    background-color: #ffc0cb;
+.lightpinkbox{    
     width: 33%;
     padding: 50px;
 }
@@ -96,11 +99,9 @@ nav{
 
 .smoke.background{
     background-color: #23272a;
-
 }
 
-.mintbox{
-    background-color: #20b2aa;
+.mintbox{    
     width: 66%;
     display: flex;
     justify-content: space-between;
@@ -109,25 +110,15 @@ nav{
 .smallMintBox{
     width: 25%;
     /* per evidenziare i 4div */
-    border: solid 1px;
+    
 }
 
-
-.salmonbox{
-    background-color: #f08080;
+.salmonbox{    
     width: 33%;
 }
 
 #lastBlock{
     background-color: #23272a;    
-}
-
-.flexContainer.last{
-    background-color: #7fffd4;
-}
-
-.button.last{
-    background-color: #ffb6c1;
 }
 
 /* **** rounded button***** */
@@ -139,17 +130,24 @@ nav{
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
-    background-color: rgba(220, 0, 0, 1);
-    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    border-radius: 25px;
+    background-color: #8ea1e1;    
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .styled:hover {
-    background-color: rgba(255, 0, 0, 1);
+    background-color: #8ea1e1;
 }
 
 .styled:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 /* ********************************** */
+
+footer{
+    color: white;
+}
+
+.listStyle{
+    list-style: none;
+}
