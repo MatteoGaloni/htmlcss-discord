@@ -11,6 +11,8 @@ body{
 
 header{
     background-color: #add8e6;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
 }
 
 nav{
@@ -33,14 +35,14 @@ nav{
     /* border: solid 1px; */
 }
 
-.blueBackground{
-    background-color: #00008b;    
+.blueBackground{      
     display: flex;
     justify-content: center;
     padding: 2em  
 }
 
 .weirdPinkBox{
+    text-align: center;
     background-color: #ee82ee;
     min-height: 300px;
     width: 45%;
