@@ -1,9 +1,42 @@
+/* general setting */
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: white;    
+}
+
+.listStyle{
+    list-style: none;
+}
+
+/* **** rounded button***** */
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 25px;
+    background-color: #8ea1e1;    
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+    background-color: #8ea1e1;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+/* ******************************** */
 body{
     background-color: orange;
     color: black;
@@ -11,10 +44,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 header{
     background-color: #add8e6;
     background-image: url(../img/jumbo.png);
-    background-size: 100%;
+    background-size: cover
+    background-repeat: no-repeat;
     color: white;
 }
 
@@ -37,10 +72,7 @@ nav{
     /* border: solid 1px; */
 }
 
-.linkButton{
-    text-decoration: none;
-    color: white;    
-}
+
 
 .blueBackground{      
     display: flex;
@@ -88,6 +120,13 @@ nav{
     padding: 50px;
 }
 
+.grey{
+    background-color: #d3d3d3;
+    text-align: center;
+    padding: 50px;
+
+}
+
 .grey.background{
     background-color: #d3d3d3;
 }
@@ -121,33 +160,10 @@ nav{
     background-color: #23272a;    
 }
 
-/* **** rounded button***** */
-.styled {
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 25px;
-    background-color: #8ea1e1;    
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-}
 
-.styled:hover {
-    background-color: #8ea1e1;
-}
-
-.styled:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
 /* ********************************** */
 
 footer{
     color: white;
 }
 
-.listStyle{
-    list-style: none;
-}
