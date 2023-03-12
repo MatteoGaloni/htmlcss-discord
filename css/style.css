@@ -38,7 +38,6 @@ a {
 }
 /* ******************************** */
 body{
-    background-color: orange;
     color: black;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
@@ -48,7 +47,7 @@ body{
 header{
     background-color: #add8e6;
     background-image: url(../img/jumbo.png);
-    background-size: cover
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
 }
@@ -70,6 +69,15 @@ nav{
     min-width: 100px;
     padding: 1em;
     /* border: solid 1px; */
+}
+
+.scarica{
+    background-color: white;
+    color: black;
+}
+
+.discord{
+    background-color: #23272a;
 }
 
 
@@ -127,6 +135,11 @@ nav{
 
 }
 
+.grey > div{
+    width: 70%;
+    margin: auto;
+}
+
 .grey.background{
     background-color: #d3d3d3;
 }
@@ -167,3 +180,26 @@ footer{
     color: white;
 }
 
+
+.wave{
+    width: 100%;
+    display: block;
+    filter: opacity(0.17);
+    fill: #d3d3d3;
+}
+
+
+
+
+.wave2{
+    width: 100%;
+    display: block;
+    filter: opacity(0.17);
+    fill: #d3d3d3;
+    transform: rotate(180deg)
+}
+
+
+li{
+    margin-bottom: 5px;
+}
